@@ -1,0 +1,91 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f6f8;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container.dark {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.container.dark input,
+.container.dark textarea {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.note {
+  background-color: #fefefe;
+  border-left: 5px solid #007bff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.container.dark .note {
+  background-color: #2c2c2c;
+  border-left-color: #00cfff;
+}
+
+.note h3 {
+  margin: 0;
+}
+
+.note button {
+  position: relative;
+  margin-right: 10px;
+  background-color: #ff4d4f;
+  color: white;
+}
+
+.note button:hover {
+  background-color: #cc0000;
+}
