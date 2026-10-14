@@ -88,7 +88,7 @@ function App() {
         {isEditing ? 'Update Note' : 'Add Note'}
       </button>
 
-      <h2>📚 All Notes</h2>
+      <h2>📚 Notes</h2>
 
       {notes
         .filter((n) => n.title.toLowerCase().includes(searchTerm.toLowerCase()))
